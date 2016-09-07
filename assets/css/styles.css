@@ -1,15 +1,14 @@
-/* ----------------------------
+/**
+* @author: Ashley Menhennett
+* @author URI: http://ashley.guru
+* @project: ashley.guru
+* @version: 0.1
+* @license: MIT
+* @license URI: https://s3-ap-southeast-2.amazonaws.com/ashleymenhennett/LICENSE
+* @updated: 07/09/2016
+*/
 
-	Author: Ashley Menhennett
-	Author URI: http://ashley.guru
-	Updated: 02/09/2016
-
----------------------------- */
-
-/************************
-	Grid System
-*************************/
-
+/* Grid System */
 *{box-sizing: border-box;}
 
 body{
@@ -50,10 +49,7 @@ body{
 	}
 }
 
-/************************
-	Universal + Branding
-*************************/
-
+/* Universal + Branding */
 *{
 	font-family: 'Oswald', sans-serif;
 }
@@ -86,44 +82,7 @@ a.button:hover{ background: #035870; }
 } 
 #brand:hover a{ background: transparent; }
 
-/************************
-	Back to top
-*************************/
-
-#back-top {
-	position: fixed;
-	bottom: 30px;
-	margin-right: -50px;
-} #back-top a {
-	width: 108px;
-	display: block;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
-	transition: 1s;
-} #back-top a:hover {
-	color: #000;
-} #back-top span {
-	width: 108px;
-	height: 108px;
-	display: block;
-	margin-bottom: 7px;
-	background: #dddddd url(../img/up-arrow.png) no-repeat center center;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
-	transition: 1s;
-} 
-#back-top a:hover span { background-color: #777; }
-
-/************************
-	Navigation
-*************************/
-
+/* Navigation */
 #main-navigation{
 	padding: 50px;
 	background: #111111;
@@ -157,10 +116,6 @@ a.button:hover{ background: #035870; }
 	color: #dc7c10;
 }
 
-/************************
-	Navigation Toggle
-*************************/
-
 #toggle-navigation{
 	color: #eeeeee;
 	font-size: 50px;
@@ -169,10 +124,7 @@ a.button:hover{ background: #035870; }
 }
 #toggle-navigation:hover{ cursor: pointer; }
 
-/************************
-	Intro
-*************************/
-
+/* Intro */
 #intro{
 	float: right;
 	text-align: center;
@@ -194,16 +146,13 @@ a.button:hover{ background: #035870; }
    min-height: 460px;
 }
 
-/************************
-	Profile Image
-*************************/
+/* Profile Image */
+#profile-img{ 
+	max-width: 40%;
+	border-radius: 50%;
+}
 
-#profile-img{ max-width: 40%; }
-
-/************************
-	Sections
-*************************/
-
+/* Sections */
 .testimonial{
 	border-top: 2px solid #eeeeee;
 	padding: 40px;
@@ -248,10 +197,7 @@ a.button:hover{ background: #035870; }
 	display: block;
 }
 
-/************************
-	Footer
-*************************/
-
+/* Footer */
 footer{
 	background: #111111;
 	color: #FE9E32;
@@ -264,10 +210,38 @@ footer{
 	text-decoration: none;
 }
 
-/************************
-	Media Queries
-*************************/
+/* Back to top */
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	margin-right: -50px;
+} #back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+} #back-top a:hover {
+	color: #000;
+} #back-top span {
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-bottom: 7px;
+	background: #dddddd url(../img/up-arrow.png) no-repeat center center;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+} 
+#back-top a:hover span { background-color: #777; }
 
+/* Media Queries */
 @media (min-width: 769px){
 	#toggle-navigation{ display: none; }
 	#main-navigation-list-container{ display: block !important; }
