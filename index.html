@@ -9,11 +9,11 @@
 	  	<meta name="author" content="Ashley Menhennett">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="theme-color" content="#dc7c10">
-		<link rel="icon" href="assets/img/profile.jpg" type="image/x-icon">
-		<link rel="stylesheet" href="http://necolas.github.com/normalize.css/3.0.2/normalize.css">
-		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="assets/css/styles.css">
+		<link href="assets/img/favicon.png" rel="icon" type="image/png">
+		<link href="http://necolas.github.com/normalize.css/3.0.2/normalize.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
+		<link href="assets/css/styles.css" rel="stylesheet" type="text/css">
 		<!--[if lt IE 9]>
 	  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	  	<![endif]-->
@@ -29,24 +29,27 @@
 			</div>
 			<div id="main-navigation-list-container" class="col nine">
 				<ul id="main-navigation-list">
-					<li><a data-scroll id="home-nav" href="#home" class="active">Home</a></li>
-					<li><a data-scroll id="resume-nav" href="#resume">Resume</a></li>
-					<li><a data-scroll id="projects-nav" href="#projects">Projects</a></li>
-					<li><a data-scroll id="contact-nav" href="#contact">Contact</a></li>
+					<li><a data-scroll href="#testimonials">Testimonials</a></li>
+					<li><a data-scroll href="#resume">Resume</a></li>
+					<li><a data-scroll href="#projects">Projects</a></li>
+					<li><a data-scroll href="#contact">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
-		<section id="home" class="row">
+
+		<section class="row">
 			<div class="col twelve">
-				<div id="home-box">
-					<img id="profile-img" src="assets/img/profile.jpg" alt="A photo of Ashley Menhennett" />
-					<div id="intro">
+				<div class="row" id="home-box">
+					<div class="col five">
+						<img id="profile-img" src="assets/img/profile.jpg" alt="A photo of Ashley Menhennett" />
+					</div>
+					<div class="col seven" id="intro">
 						<h1>Hello, I am Ashley.</h1>
 						I am a Software Developer from Australia.
 						<br>
 						<br>
-						<a data-scroll class="button" href="#resume">Resume</a>
-						<small><a href="https://s3-ap-southeast-2.amazonaws.com/ashleymenhennett/AshleyMenhennettResume2016.pdf">Download resume</a></small>
+						<a data-scroll class="button" id="resume-button" href="#resume">Resume</a>
+						<small><a href="https://s3-ap-southeast-2.amazonaws.com/ashleymenhennett/AshleyMenhennettResume2016.pdf">download resume</a></small>
 					</div>
 				</div>
 			</div>
@@ -55,39 +58,7 @@
 		<section>
 			<header class="row">
 				<div class="col twelve">
-					<h1>Testimonials</h1>
-				</div>
-			</header>
-			<div class="row">
-				<div class="col four testimonial">
-					<strong>Pablo Farias Navarro, ZENVA - CEO & Founder</strong> I hired Ashley to write technical tutorials on web development and mobile HTML5 and he did a great job, completed all the requirements in the given timeframe and provided good support afterwards. I'll be working with Ashley again in the future as he is a very talented technical writer and is passionate about it.
-				</div>
-				<div class="col four testimonial">
-					<strong>Mark Lassoff, LearnToProgram.tv - Founder</strong> Working with Ashley has been a pleasure. He produced consistently good results and can be relied to on to communicate well about the projects that he's on. Ashley has written several content pieces for LearnToProgram and they have all exemplified a strong effort and good outcome.
-				</div>
-				<div class="col four testimonial">
-					<strong>Rosemary Pesch, Peregrine Corporation - Training Manager</strong> I am happy to recommend Ashley to any retail business. Ashley worked as a dedicated console operator at our busy BP Croydon site offering exceptional customer service with a warm and friendly can do attitude for customers and team members alike. Ashley resigned when he decided to venture interstate but I, as the Training and Recruitment Manager would have no hesitation in re-instating him if the opportunity presented itself. Rosemary Pesch, Training & Recruitment Manager, Peregrine Corporation (On The Run).
-				</div>
-			</div>
-		</section>
-		<section class="row">
-			<div class="col four testimonial">
-				<strong>Logan Wenger, Survival Password - Founder</strong> Ashley Menhennett is the first person I call when I need help on my web projects. He is a walking definition of master programmer. Ashley is a multi-talented programmer skilled in several programming languages and his passion shows when he walks clients through the development stages. 
-Ashley has a natural ability to move between back-end programming and front-end design seamlessly and flawlessly. Whether your website needs a tune-up, re-design, or built from the ground up, Ashley possesses the skills, knowledge, and abilities to finish your project on time, every time. 
-It is with great confidence that I recommend Ashley Menhennett as the web developer for your web properties.
-			</div>
-			<div class="col four testimonial">
-				<strong>Glen Betts, Betts Remodelling</strong> Ashley has been super informative and helpful with detailed tips about securing my WordPress site. He is always very prompt to answer my questions and shows genuine interest in helping others.
-			</div>
-			<div class="col four testimonial">
-				<strong>Nikolaos Vogiatzis, Software Engineering Australia</strong> Ashley is professional, highly motivated, customer-centric, has the upmost integrity and exceptionally creative and talented! I look forward to working with Ashley for an extremely long time to come.
-			</div>
-		</section>
-
-		<section>
-			<header id="resume" class="row">
-				<div class="col twelve">
-					<h1>Resume</h1>
+					<h1 id="resume">Resume</h1>
 				</div>
 			</header>
 			<div class="row">
@@ -129,13 +100,13 @@ It is with great confidence that I recommend Ashley Menhennett as the web develo
 							<ul>
 								<li>jQuery</li>
 		                		<li>Bootstrap</li>
-		                		<li><em class="note">More to come...</em></li>
+		                		<li><em class="note">more to come...</em></li>
 							</ul>
 						</li>
 						<li><strong>Back-End: </strong>
 							<ul>
 								<li>Laravel <em class="note">(currently learning)</em></li>
-								<li><em class="note">More to come...</em></li>
+								<li><em class="note">more to come...</em></li>
 							</ul>
 						</li>
 					</ul>
@@ -184,14 +155,14 @@ It is with great confidence that I recommend Ashley Menhennett as the web develo
 				</div>
 			</div>
 		</section>
-
+		
 		<section>
-			<header id="projects" class="row">
+			<header class="row">
 				<div class="col twelve">
-					<h1>Projects</h1>
-					<div class="intro">
-						<p>I have recently created a light-weight Content Management System in PHP for a project at University. The CMS includes a user system that can be reused as a framework for other projects. You can find the project on GitHub- <a href="https://github.com/AshMenhennett/CustoMS">CustoMS</a>.</p>
-						<p>As well as the CMS, I have also recently developed and published a faux IQ testing Android application. You can find the app on the Google Play Store <a href="https://play.google.com/store/apps/details?id=guru.ashley.testyourself">here</a> and the source code on GitHub- <a href="https://github.com/AshMenhennett/Test-Yourself">Test Yourself</a>.</p>
+					<h1 id="projects">Projects</h1>
+					<div class="project">
+						<p>I have recently created a lightweight Content Management System in PHP for a project at University. The CMS includes a user system that can be reused as a framework for other projects. You can find the project on GitHub- <a href="https://github.com/AshMenhennett/CustoMS">CustoMS</a>.</p>
+						<p>As well as the CMS, I have also recently developed and published a faux IQ testing Android application. You can find the app on the <a href="https://play.google.com/store/apps/details?id=guru.ashley.testyourself">Google Play Store</a> and the source code on GitHub- <a href="https://github.com/AshMenhennett/Test-Yourself">Test Yourself</a>.</p>
 						<p>Checkout my other projects and work on GitHub- <a href="https://github.com/AshMenhennett">GitHub</a>.</p>
 						<p>I have enjoyed teaching programming for several companies, including LearnToProgram.tv, Stone River eLearning &amp; Zenva. I have published two successful eBooks— <a href="https://s3-ap-southeast-2.amazonaws.com/ashleymenhennett/A+Guide+to+HTML5+and+CSS3.pdf">A Guide to HTML5 and CSS3</a> and <a href="https://s3-ap-southeast-2.amazonaws.com/ashleymenhennett/The+ABCs+of+Programming.pdf">The ABCs of Programming</a>. You can find some of my written tutorials and resources at <a href="http://html5hive.org/">The Hive</a>.</p>
 						<p>I have also taught a video course on securing WordPress — WPSecurity, Easily Securing WordPress.</p>
@@ -202,48 +173,76 @@ It is with great confidence that I recommend Ashley Menhennett as the web develo
 				<div class="col four project">
 					<a href="https://academy.zenva.com/product/responsive-web-development-with-bootstrap-3/?zva_src=ashley"><img src="assets/img/bs3.jpeg" alt="Bootstrap 3 Course" /></a>
 					<p><a href="https://academy.zenva.com/product/responsive-web-development-with-bootstrap-3/?zva_src=ashley">Learn how to use Bootstrap 3 for the responsive web.</a></p>
-					<p class="poiret">In this <strong>ZENVA</strong> online training you’ll learn the basics of <strong>Boostrap 3</strong> by the hand of <strong>Ashley Menhennett</strong>, programmer, web developer and designer from Australia. Ashley is also a technical writer at our development community <strong>HTML5 Hive&nbsp; </strong>and has authored other ZENVA titles as well.</p>
+					<p>In this <strong>ZENVA</strong> online training you’ll learn the basics of <strong>Boostrap 3</strong> by the hand of <strong>Ashley Menhennett</strong>, programmer, web developer and designer from Australia. Ashley is also a technical writer at our development community <strong>HTML5 Hive&nbsp; </strong>and has authored other ZENVA titles as well.</p>
 				</div>
 				<div class="col four project">
 					<a href="https://academy.zenva.com/product/upgrade-your-skills-to-css3-in-1-hour/?zva_src=ashley"><img src="assets/img/css3.jpeg" alt="CSS3 Course" /></a>
 					<p><a href="https://academy.zenva.com/product/upgrade-your-skills-to-css3-in-1-hour/?zva_src=ashley">Upgrade your Skills to CSS3 in 1 Hour.</a></p>
-					<p class="poiret"><strong>Upgrade Your Skills with CSS3 in 1 Hour</strong> is a <strong>Zenva</strong> original title created by <strong>Ashley Menhennett</strong>, technical author, web developer and designer from Australia. In this online training, you’ll learn the main modules and techniques CSS3 has to offer, so that you can build responsive, clean and beautiful websites that can be displayed in all devices.</p>
+					<p><strong>Upgrade Your Skills with CSS3 in 1 Hour</strong> is a <strong>Zenva</strong> original title created by <strong>Ashley Menhennett</strong>, technical author, web developer and designer from Australia. In this online training, you’ll learn the main modules and techniques CSS3 has to offer, so that you can build responsive, clean and beautiful websites that can be displayed in all devices.</p>
 					</div>
 				<div class="col four project">
 					<a href="https://academy.zenva.com/product/html5-mobile-app-development-for-beginners/?zva_src=ashley"><img src="assets/img/html5app.jpeg" alt="HTML5 App Course" /></a>
 					<p><a href="https://academy.zenva.com/product/html5-mobile-app-development-for-beginners/?zva_src=ashley">HTML5 Mobile App Development for Beginners.</a></p>
-					<p class="poiret">In this original <strong>ZENVA</strong> course, <strong>Ashley Menhennett</strong>, web and mobile developer, designer and technical author from Australia, is going to guide you though the basic techniques you need to know to create professional and beautiful mobile applications.</p>
+					<p>In this original <strong>ZENVA</strong> course, <strong>Ashley Menhennett</strong>, web and mobile developer, designer and technical author from Australia, is going to guide you though the basic techniques you need to know to create professional and beautiful mobile applications.</p>
 				</div>
 			</div>
 		</section>
-
 		
 		<section>
-			<header id="contact" class="row">
+			<header class="row">
 				<div class="col twelve">
-					<h1>Contact</h1>
+					<h1 id="testimonials">Testimonials</h1>
+				</div>
+			</header>
+			<div class="row">
+				<div class="col four testimonial">
+					<p><strong>Pablo Farias Navarro, ZENVA - CEO & Founder</strong> I hired Ashley to write technical tutorials on web development and mobile HTML5 and he did a great job, completed all the requirements in the given timeframe and provided good support afterwards. I'll be working with Ashley again in the future as he is a very talented technical writer and is passionate about it.</p>
+				</div>
+				<div class="col four testimonial">
+					<p><strong>Mark Lassoff, LearnToProgram.tv - Founder</strong> Working with Ashley has been a pleasure. He produced consistently good results and can be relied to on to communicate well about the projects that he's on. Ashley has written several content pieces for LearnToProgram and they have all exemplified a strong effort and good outcome.</p>
+				</div>
+				<div class="col four testimonial">
+					<p><strong>Rosemary Pesch, Peregrine Corporation - Training Manager</strong> I am happy to recommend Ashley to any retail business. Ashley worked as a dedicated console operator at our busy BP Croydon site offering exceptional customer service with a warm and friendly can do attitude for customers and team members alike. Ashley resigned when he decided to venture interstate but I, as the Training and Recruitment Manager would have no hesitation in re-instating him if the opportunity presented itself. Rosemary Pesch, Training &amp; Recruitment Manager, Peregrine Corporation (On The Run).</p>
+				</div>
+			</div>
+		</section>
+		<section class="row">
+			<div class="col four testimonial">
+				<p><strong>Logan Wenger, Survival Password - Founder</strong> Ashley Menhennett is the first person I call when I need help on my web projects. He is a walking definition of master programmer. Ashley is a multi-talented programmer skilled in several programming languages and his passion shows when he walks clients through the development stages. 
+Ashley has a natural ability to move between back-end programming and front-end design seamlessly and flawlessly. Whether your website needs a tune-up, re-design, or built from the ground up, Ashley possesses the skills, knowledge, and abilities to finish your project on time, every time. 
+It is with great confidence that I recommend Ashley Menhennett as the web developer for your web properties.</p>
+			</div>
+			<div class="col four testimonial">
+				<p><strong>Glen Betts, Betts Remodelling</strong> Ashley has been super informative and helpful with detailed tips about securing my WordPress site. He is always very prompt to answer my questions and shows genuine interest in helping others.</p>
+			</div>
+			<div class="col four testimonial">
+				<p><strong>Nikolaos Vogiatzis, Software Engineering Australia</strong> Ashley is professional, highly motivated, customer-centric, has the upmost integrity and exceptionally creative and talented! I look forward to working with Ashley for an extremely long time to come.</p>
+			</div>
+		</section>
+
+		<section>
+			<header class="row">
+				<div class="col twelve">
+					<h1 id="contact">Contact</h1>
 				</div>
 			</header>
 			<div class="row">
 				<div class="col twelve contact">
 					<p>Feel free to contact me by <a href="tel:+61417185703">Phone</a> or <a href="mailto:ashleymenhennett@gmail.com?Subject=Hi">Email</a>.</p>
 					<p>Here are some other links that you may be interested in:</p>
-					<p>
-						<a class="button" href="https://github.com/AshMenhennett">GitHub</a>
-						<a class="button" href="https://www.facebook.com/ashley.menhennett">Facebook</a>
-						<a class="button" href="https://twitter.com/AshMenhennett">Twitter</a>
-						<a class="button" href="http://www.linkedin.com/pub/ashley-menhennett/65/461/723">Linkedin</a>
-						<a class="button" href="https://www.google.com/+AshleyMenhennett">Google+</a>
-						<a class="button" href="skype:hoofed1045?call">Skype</a>
-						
-					</p>
+					<a class="button" href="https://github.com/AshMenhennett">GitHub</a>
+					<a class="button" href="https://www.facebook.com/ashley.menhennett">Facebook</a>
+					<a class="button" href="https://twitter.com/AshMenhennett">Twitter</a>
+					<a class="button" href="http://www.linkedin.com/pub/ashley-menhennett/65/461/723">Linkedin</a>
+					<a class="button" href="https://www.google.com/+AshleyMenhennett">Google+</a>
+					<a class="button" href="skype:hoofed1045?call">Skype</a>
 				</div>
 			</div>
 		</section>
 
 		<footer class="row">
 			<div class="col twelve">
-				<span>&copy; Ashley Menhennett 2015</span>
+				<span>&copy; Ashley Menhennett 2016</span>
 				<span id="footer-right">
 					<a href="mailto:ashleymenhennett@gmail.com?Subject=Hi">Email</a> | 
 					<a href="https://github.com/AshMenhennett">GitHub</a> | 
