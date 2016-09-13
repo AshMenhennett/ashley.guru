@@ -5,7 +5,7 @@
 * @version: v0.1
 * @license: MIT
 * @license URI: https://s3-ap-southeast-2.amazonaws.com/ashleymenhennett/LICENSE
-* @updated: 11/09/2016
+* @updated: 13/09/2016
 */
 
 /* Grid System */
@@ -61,32 +61,19 @@ a{ color: #dc7c10; }
 
 .note{ color: #888; }
 
-/* Buttons */
-a.button{
-	display: block;
-	margin: 2px;
-	padding: 10px 25px;
-	color: #fff;
-	text-decoration: none;
-	background: #257BA0;
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-}
-a.button:hover{ background: #035870; }
-
-/* Branding*/
 h1, h2, h3, h4, h5, h6{
 	padding: 15px;
 	font-weight: 700;
 	color: #dc7c10;
 } 
 
+/* Branding*/
 #brand{
 	font-weight: 700;
 	color: #dc7c10;
 } #brand a{
 	font-size: 3.125em !important;
-	color: #dc7c10 !important;
+	color: #fe9e32 !important;
 } 
 #brand:hover a{ background: transparent; }
 
@@ -139,8 +126,6 @@ h1, h2, h3, h4, h5, h6{
 }#intro h1{
 	font-size: 3.125rem;
 	color: #dc7c10;
-}#intro small a{
-	color: #333;
 }
 
 #home-box{
@@ -153,7 +138,7 @@ h1, h2, h3, h4, h5, h6{
    -webkit-box-shadow: inset 0 0 8px #333;
    box-shadow: inset 0 0 8px #333;
 }
-#resume-button{
+#contact-button{
 	max-width: 75%;
 	margin: 0 auto;
 }
@@ -165,6 +150,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Sections */
+h1#resume small a{
+	font-size: 0.70em;
+	color: #333; 
+}
+.resume-section{ padding: 20px; }
 .resume-section ul>li{ padding: 6px; }
 
 .project{ margin-top: 20px; }
@@ -175,16 +165,36 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #intro, .contact{ font-size: 1.5em; }
-.testimonial, .project, .contact p{ padding: 12px; }
+.contact p{ padding: 40px; }
+.contact p:first-of-type{ padding-bottom: 15px; }
+.contact p:last-of-type{ 
+	padding-top: 0px; 
+	padding-bottom: 5px;
+}
+.testimonial, .project{ padding: 40px; }
 #intro, .testimonial, .project, .contact{ text-align: center; }
 .testimonial, .resume-section, .project{ font-size: 1.375em; }
 .testimonial, .resume-section, .project, .contact{ border-top: 2px solid #eee; }
+
+/* Buttons */
+a.button{
+	display: block;
+	margin: 2px;
+	padding: 10px 25px;
+	color: #fff;
+	text-decoration: none;
+	background: #257ba0;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+a.button:hover{ background: #035870; }
 
 /* Footer */
 footer{
 	margin-top: 28px;
 	padding: 20px;
 	background: #111;
+	font-size: 1.2em;
 	color: #fe9e32;
 } #footer-right{
 	float: right;
@@ -251,11 +261,16 @@ footer{
 	#profile-img{ max-width: 100%; }
 	#intro{ float: none; }
 
+	.resume-section{ padding: 40px; }
+
 	footer, #footer-right{ 
 		float: none;
 		text-align: center !important; 
 	}
+	footer{ padding: 20px 20px 5px 20px; }
 	footer span{ display: block; }
+	footer #footer-right{ margin-top: 10px; }
+	footer #footer-right a{ padding: 2px; }
 }
 
 @media (min-width: 769px) and (max-width: 959px){
