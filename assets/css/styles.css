@@ -116,6 +116,7 @@ h1, h2, h3, h4, h5, h6{
 	top: 28px;
 	right: 20px;
 	font-size: 3.125em;
+	outline: 0 !important;
 	color: #eee;
 }
 #toggle-navigation:hover{ cursor: pointer; }
@@ -158,6 +159,7 @@ h1#resume small a{
 .resume-section ul>li{ padding: 6px; }
 
 .project{ margin-top: 20px; }
+.project.no-top-brdr{ border: none; }
 .project img{
 	display: block;
 	max-width: 100%;
