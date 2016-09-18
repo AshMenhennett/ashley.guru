@@ -272,7 +272,7 @@ footer{
 	}
 	footer{ padding: 20px 20px 5px 20px; }
 	footer span{ display: block; }
-	footer #footer-right{ margin-top: 10px; }
+	footer #footer-right{ margin-top: 5px; }
 	footer #footer-right a{ padding: 2px; }
 }
 
