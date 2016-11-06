@@ -2,6 +2,10 @@
 
 The source for my personal website.
 
+##Google Fonts
+- [Oswald](https://fonts.googleapis.com/css?family=Oswald)
+- [Poiret One](https://fonts.googleapis.com/css?family=Poiret+One)
+
 ##Libraries
 - [jQuery](https://jquery.com/)
 - [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
