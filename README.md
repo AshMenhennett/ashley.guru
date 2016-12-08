@@ -3,12 +3,12 @@
 The source for my personal website.
 
 ##Google Fonts
-- [Josefin Slab](https://fonts.googleapis.com/css?family=Josefin+Slab)
-- [Raleway](https://fonts.googleapis.com/css?family=Raleway)
+- [Josefin Slab](https://fonts.google.com/specimen/Josefin+Slab)
+- [Raleway](https://fonts.google.com/specimen/Raleway)
 
 ##Libraries and Assets
 - [jQuery](https://jquery.com/)
-- [Smooth Scroll](https-://github.com/cferdinandi/smooth-scroll)
+- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 - [HTML5 Shiv](https://github.com/aFarkas/html5shiv)
 - [Respond](https://github.com/scottjehl/Respond)
 - [Normalize](https://github.com/necolas/normalize.css)
