@@ -173,10 +173,12 @@ h1#resume small a {
     padding-top: 10px;
     padding-bottom: 5px;
 }
-.testimonial, .project { padding: 20px; }
+.testimonial, .project, .about { padding: 20px; }
 #intro, .testimonial, .project, .contact, .about { text-align: center; }
 .testimonial, .resume-section, .project, .about { font-size: 1.375em; }
 .testimonial, .resume-section, .project, .contact, .about { border-top: 1px solid #bdc3c7; }
+
+.about, .project, .testimonial, .contact { margin-bottom: 20px; }
 
 /* Buttons */
 a.button {
@@ -249,7 +251,7 @@ footer#main-footer {
 @media (max-width: 768px) {
     #main-navigation { padding: 29px; }
     #main-navigation a { font-size: 1.5em; }
-    #brand, h1, h2 { text-align: center; }
+    #brand, h1 { text-align: center; }
     #main-navigation-list-container { display: none; }
     ul#main-navigation-list { float: none; }
     ul#main-navigation-list li { float: none !important; }
