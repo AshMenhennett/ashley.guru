@@ -138,7 +138,7 @@ h1 i.fa, h2 i.fa {
 }
 
 #contact-button {
-    max-width: 85%;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -263,6 +263,10 @@ footer#main-footer {
 
     #profile-img { max-width: 100%; }
     #intro { float: none; }
+
+    #contact-button {
+        max-width: 95%;
+    }
 
     .resume-section { padding: 40px; }
 
