@@ -157,7 +157,7 @@ h1#resume small a {
 .resume-section { padding: 10px; }
 .resume-section ul>li { padding: 6px; }
 
-.project { margin-top: 20px; }
+.project, .about { margin-top: 20px; }
 .project.no-top-brdr { border: none; }
 .project img {
     display: block;
@@ -174,9 +174,9 @@ h1#resume small a {
     padding-bottom: 5px;
 }
 .testimonial, .project { padding: 20px; }
-#intro, .testimonial, .project, .contact { text-align: center; }
-.testimonial, .resume-section, .project { font-size: 1.375em; }
-.testimonial, .resume-section, .project, .contact { border-top: 2px solid #eee; }
+#intro, .testimonial, .project, .contact, .about { text-align: center; }
+.testimonial, .resume-section, .project, .about { font-size: 1.375em; }
+.testimonial, .resume-section, .project, .contact, .about { border-top: 2px solid #eee; }
 
 /* Buttons */
 a.button {
