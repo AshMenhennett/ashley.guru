@@ -22,7 +22,7 @@ body {
     display: inline-block;
     float: left;
 }
-.col:first-child { margin-left: 0px; }
+.col:first-child{ margin-left: 0px;  }
 .col:last-child { margin-right: 0px; }
 .col.one        { width: 3.93%;      }
 .col.two        { width: 12.66%;     }
@@ -45,21 +45,27 @@ body {
 }
 
 /* Main Typography */
-* { font-family: 'Josefin Slab', sans-serif; font-weight: 700; }
-#main-navigation-list li a, p, #intro, .resume-section ul li, .note, footer#main-footer span, footer#main-footer span a { font-family: "Raleway", sans-serif; font-weight: 200; }
+* {
+    font-family: 'Josefin Slab', sans-serif;
+    font-weight: 700;
+}
+
+#main-navigation-list li a, p, #intro, .resume-section ul li, .note, footer#main-footer span, footer#main-footer span a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+
 h1 { font-size: 2.5em; }
 
 /* Universal */
 body { background: #ecf0f1; }
-
 a { color: #e67e22; }
 
 .note { color: #888; }
 .underline { text-decoration: underline; }
-.lang-frameworks ul li ul li {
-    font-size: 1em;
-}
+.lang-frameworks ul li ul li { font-size: 1em; }
 
+/* Headings and FontAwesome icons */
 h1, h2, h3, h4, h5, h6 {
     padding: 15px;
     font-weight: 700;
@@ -144,7 +150,7 @@ h1 i.fa, h2 i.fa {
 
 /* Profile Image */
 #profile-img {
-    max-width: 20%;
+    max-width: 30%;
     border-radius: 50%;
 }
 
