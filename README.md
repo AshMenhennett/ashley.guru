@@ -14,6 +14,7 @@ The source for my personal website.
 - [Normalize](https://github.com/necolas/normalize.css)
 - [Font Awesome](http://fontawesome.io/)
 - [Colour inspiration](http://flatuicolors.com/)
+- [Favicon](http://mdbootstrap.com/tools/logo-generator-text/)
 
 ##License
 MIT Licensing
