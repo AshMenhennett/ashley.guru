@@ -50,7 +50,7 @@ body {
     font-weight: 700;
 }
 
-#main-navigation-list li a, p, #intro, .resume-section ul li, .note, footer#main-footer span, footer#main-footer span a {
+#main-navigation-list li a, p, #intro, .resume-section ul li, .note, footer #main-footer span, footer #main-footer span a {
     font-family: "Raleway", sans-serif;
     font-weight: 200;
 }
@@ -78,15 +78,6 @@ h1 i.fa, h2 i.fa {
     font-weight: 100;
     color: #525151;
 }
-
-/* Branding*/
-#brand {
-    color: #e67e22;
-} #brand a {
-    font-size: 3.125em !important;
-    color: #fe9e32 !important;
-}
-#brand:hover a { background: transparent; }
 
 /* Navigation */
 #main-navigation {
@@ -131,6 +122,15 @@ h1 i.fa, h2 i.fa {
     color: #eee;
 }
 #toggle-navigation:hover { cursor: pointer; }
+
+/* Branding*/
+#brand {
+    color: #e67e22;
+} #brand a {
+    font-size: 3.125em !important;
+    color: #fe9e32 !important;
+}
+#brand:hover a { background: transparent; }
 
 /* Intro & Home Area */
 #intro {
@@ -200,18 +200,18 @@ a.button {
 a.button:hover { background: #035870; }
 
 /* Footer */
-footer#main-footer {
+footer #main-footer {
     padding: 20px;
     background: #2c3e50;
     font-size: 1.2em;
     color: #fff;
-} footer#main-footer #footer-right {
+} footer #main-footer #footer-right {
     float: right;
     text-align: right;
-} footer#main-footer #footer-right a {
+} footer #main-footer #footer-right a {
     color: #fff;
     text-decoration: none;
-} footer#main-footer #footer-right a:hover {
+} footer #main-footer #footer-right a:hover {
     color: #fe9e32;
 }
 
@@ -276,13 +276,13 @@ footer#main-footer {
 
     .resume-section { padding: 40px; }
 
-    footer#main-footer, footer#main-footer #footer-right {
+    footer #main-footer, footer #main-footer #footer-right {
         text-align: center !important;
     }
-    footer#main-footer { padding: 20px 20px 5px 20px; }
-    footer#main-footer span { display: block; }
-    footer#main-footer #footer-right { margin-top: 5px; float: none;}
-    footer#main-footer #footer-right a { padding: 2px; }
+    footer #main-footer { padding: 20px 20px 5px 20px; }
+    footer #main-footer span { display: block; }
+    footer #main-footer #footer-right { margin-top: 5px; float: none;}
+    footer #main-footer #footer-right a { padding: 2px; }
 }
 
 @media (min-width: 769px) and (max-width: 959px) {
