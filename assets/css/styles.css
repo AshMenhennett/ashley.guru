@@ -9,13 +9,13 @@
 body {
     width: 100%;
     min-width: 320px;
-    max-width: 1200px;
     margin: 0 auto;
     font-size: 16px;
 }
 .row {
     width: 100%;
-    float: left;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .col {
     margin-left: 2.4%;
@@ -81,8 +81,16 @@ h1 i.fa, h2 i.fa {
 }
 
 /* Navigation */
+.main-navigation-container {
+    height: 151px;
+    width: 100%;
+    background: #2c3e50;
+}
+.main-navigation-center {
+    margin: 0 auto;
+}
 #main-navigation {
-    padding: 50px;
+    padding: 50px 50px 101px 50px;
     background: #2c3e50;
 } #main-navigation a {
     font-size: 1.2em;
@@ -201,53 +209,28 @@ a.button {
 a.button:hover { background: #035870; }
 
 /* Footer */
-footer #main-footer {
-    padding: 20px;
+.main-footer-container {
+    height: 60px;
+    width: 100%;
+    clear: both;
+    background: #2c3e50;
+}
+
+#main-footer {
+    padding: 20px 20px 40px 20px;
+    clear: both;
     background: #2c3e50;
     font-size: 1.2em;
     color: #fff;
-} footer #main-footer #footer-right {
+} #main-footer #footer-right {
     float: right;
     text-align: right;
-} footer #main-footer #footer-right a {
+} #main-footer #footer-right a {
     color: #fff;
     text-decoration: none;
-} footer #main-footer #footer-right a:hover {
+} #main-footer #footer-right a:hover {
     color: #fe9e32;
 }
-
-/* Back to top */
-/*
-#back-top {
-    position: fixed;
-    bottom: 30px;
-    margin-right: -50px;
-} #back-top a {
-    display: block;
-    width: 108px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    transition: 1s;
-} #back-top a:hover {
-    color: #000;
-} #back-top span {
-    display: block;
-    width: 108px;
-    height: 108px;
-    margin-bottom: 7px;
-    background: #ddd url(../img/up-arrow.png) no-repeat center center;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    transition: 1s;
-}
-#back-top a:hover span { background-color: #777; }
-*/
 
 /* Media Queries */
 @media (min-width: 769px) {
@@ -256,10 +239,21 @@ footer #main-footer {
 }
 
 @media (max-width: 768px) {
-    #main-navigation { padding: 29px; }
+    #main-navigation { padding: 29px 29px 90px 29px; }
     #main-navigation a { font-size: 1.5em; }
     #brand, h1 { text-align: center; }
-    #main-navigation-list-container { display: none; }
+    #main-navigation-list-container {
+        display: none;
+        background: #2c3e50;
+        margin-top: 29px;
+        border-top: 3px solid #e67e22;
+        text-align: center;
+    }
+    #main-navigation-list li a {
+        margin: 0;
+        border-bottom: none;
+    }
+    .main-navigation-container { height: 119px; }
     ul#main-navigation-list { float: none; }
     ul#main-navigation-list li { float: none !important; }
     #main-navigation-list li a {
@@ -277,13 +271,16 @@ footer #main-footer {
 
     .resume-section { padding: 40px; }
 
-    footer #main-footer, footer #main-footer #footer-right {
+    .main-footer-container {
+        height: 100px;
+    }
+    #main-footer, #main-footer #footer-right {
         text-align: center !important;
     }
-    footer #main-footer { padding: 20px 20px 5px 20px; }
-    footer #main-footer span { display: block; }
-    footer #main-footer #footer-right { margin-top: 5px; float: none;}
-    footer #main-footer #footer-right a { padding: 2px; }
+    #main-footer { padding: 20px 20px 80px 20px; }
+    #main-footer span { display: block; }
+    #main-footer #footer-right { margin-top: 5px; float: none;}
+    #main-footer #footer-right a { padding: 2px; }
 }
 
 @media (min-width: 769px) and (max-width: 959px) {

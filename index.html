@@ -14,7 +14,7 @@
 		<link href="assets/vendor/normalize.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700|Raleway:200" rel="stylesheet">
         <script src="https://use.fontawesome.com/ac213ff796.js"></script>
-		<link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+		<link href="assets/css/styles.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 	  		<script src="assets/vendor/html5shiv.js"></script>
             <script src="assets/vendor/respond.js"></script>
@@ -22,19 +22,21 @@
 	</head>
 	<body>
 		<nav>
-            <div class="row" id="main-navigation">
-    			<div id="brand" class="col three">
-    				<a href="#">Ashley</a>
-    				<span id="toggle-navigation"><i class="fa fa-bars"></i></span>
-    			</div>
-    			<div id="main-navigation-list-container" class="col nine">
-    				<ul id="main-navigation-list">
-    					<li><a data-scroll href="#projects">Projects</a></li>
-    					<li><a data-scroll href="#resume">Resume</a></li>
-    					<li><a data-scroll href="#testimonials">Testimonials</a></li>
-    					<li><a data-scroll href="#contact">Contact</a></li>
-    				</ul>
-    			</div>
+            <div class="main-navigation-container">
+                <div class="row" id="main-navigation">
+        			<div id="brand" class="col three">
+        				<a href="#">Ashley</a>
+        				<span id="toggle-navigation"><i class="fa fa-bars"></i></span>
+        			</div>
+        			<div id="main-navigation-list-container" class="col nine">
+        				<ul id="main-navigation-list">
+        					<li><a data-scroll href="#projects">Projects</a></li>
+        					<li><a data-scroll href="#resume">Resume</a></li>
+        					<li><a data-scroll href="#testimonials">Testimonials</a></li>
+        					<li><a data-scroll href="#contact">Contact</a></li>
+        				</ul>
+        			</div>
+                </div>
             </div>
 		</nav>
 
@@ -74,7 +76,7 @@
 		<section>
 			<header class="row">
 				<div class="col twelve">
-					<h1 id="projects">Recent Projects <i class="fa fa-book" aria-hidden="true"></i></h1>
+					<h1 id="projects">Projects <i class="fa fa-book" aria-hidden="true"></i></h1>
 				</div>
 			</header>
 			<div class="row">
@@ -284,22 +286,21 @@
 		</section>
 
 		<footer>
-            <div class="row" id="main-footer">
-    			<div class="col twelve">
-    				<span>&copy; Ashley Menhennett 2016</span>
-    				<span id="footer-right">
-    					<a href="tel:+61417185703">Phone</a> |
-    					<a href="mailto:ashleymenhennett@gmail.com?Subject=Hi">Email</a> |
-    					<a href="https://github.com/AshMenhennett">GitHub</a> |
-    					<a href="https://www.facebook.com/ashley.menhennett">Facebook</a> |
-    					<a href="https://twitter.com/AshMenhennett">Twitter</a>
-    				</span>
-    			</div>
+            <div class="main-footer-container">
+                <div class="row" id="main-footer">
+        			<div class="col twelve">
+        				<span>&copy; Ashley Menhennett 2016</span>
+        				<span id="footer-right">
+        					<a href="tel:+61417185703">Phone</a> |
+        					<a href="mailto:ashleymenhennett@gmail.com?Subject=Hi">Email</a> |
+        					<a href="https://github.com/AshMenhennett">GitHub</a> |
+        					<a href="https://www.facebook.com/ashley.menhennett">Facebook</a> |
+        					<a href="https://twitter.com/AshMenhennett">Twitter</a>
+        				</span>
+        			</div>
+                </div>
             </div>
 		</footer>
-		<!-- <p id="back-top">
-			<a href="#top"><span></span>Back to Top</a>
-		</p> -->
 		<script src="assets/vendor/jquery.min.js"></script>
 		<script src="assets/vendor/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
 		<script src="assets/js/app.js"></script>
