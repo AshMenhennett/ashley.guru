@@ -9,8 +9,9 @@
 body {
     width: 100%;
     min-width: 320px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
+    font-size: 16px;
 }
 .row {
     width: 100%;
@@ -116,7 +117,7 @@ h1 i.fa, h2 i.fa {
 #toggle-navigation {
     position: absolute;
     top: 28px;
-    right: 20px;
+    right: 5%;
     font-size: 3.125em;
     outline: 0 !important;
     color: #eee;
