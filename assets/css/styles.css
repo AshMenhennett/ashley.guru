@@ -276,7 +276,7 @@ a.button:hover { background: #035870; }
     #main-footer, #main-footer #footer-right {
         text-align: center !important;
     }
-    #main-footer { padding: 20px 20px 81px 20px; }
+    #main-footer { padding: 20px 20px 90px 20px; }
     #main-footer span { display: block; }
     #main-footer #footer-right { margin-top: 5px; float: none;}
     #main-footer #footer-right a { padding: 2px; }
