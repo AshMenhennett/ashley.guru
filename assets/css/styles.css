@@ -1,6 +1,10 @@
 /**
 * @author: Ashley Menhennett <ashleymenhennett@gmail.com>
 * @license: MIT
+*
+* Cloud: #ecf0f1
+* Orange: #e67e22
+* Blue: #2c3e50
 */
 
 /* Grid System */
@@ -82,7 +86,6 @@ h1 i.fa, h2 i.fa {
 
 /* Navigation */
 .main-navigation-container {
-    height: 151px;
     width: 100%;
     background: #2c3e50;
 }
@@ -91,12 +94,13 @@ h1 i.fa, h2 i.fa {
 }
 #main-navigation {
     padding: 50px 50px 101px 50px;
-    background: #2c3e50;
+    background: transparent;
 } #main-navigation a {
     font-size: 1.2em;
     color: #ccc;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
@@ -124,9 +128,9 @@ h1 i.fa, h2 i.fa {
 
 #toggle-navigation {
     position: absolute;
-    top: 28px;
+    top: 38px;
     right: 5%;
-    font-size: 3.125em;
+    font-size: 2.5em;
     outline: 0 !important;
     color: #eee;
 }
@@ -204,13 +208,13 @@ a.button {
     text-decoration: none;
     background: #257ba0;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 a.button:hover { background: #035870; }
 
 /* Footer */
 .main-footer-container {
-    height: 60px;
     width: 100%;
     clear: both;
     background: #2c3e50;
@@ -218,8 +222,7 @@ a.button:hover { background: #035870; }
 
 #main-footer {
     padding: 20px 20px 40px 20px;
-    clear: both;
-    background: #2c3e50;
+    background: transparent;
     font-size: 1.2em;
     color: #fff;
 } #main-footer #footer-right {
@@ -253,7 +256,6 @@ a.button:hover { background: #035870; }
         margin: 0;
         border-bottom: none;
     }
-    .main-navigation-container { height: 119px; }
     ul#main-navigation-list { float: none; }
     ul#main-navigation-list li { float: none !important; }
     #main-navigation-list li a {
@@ -271,9 +273,6 @@ a.button:hover { background: #035870; }
 
     .resume-section { padding: 40px; }
 
-    .main-footer-container {
-        height: 100px;
-    }
     #main-footer, #main-footer #footer-right {
         text-align: center !important;
     }
