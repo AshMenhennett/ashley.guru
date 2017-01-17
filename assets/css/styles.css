@@ -1,6 +1,10 @@
 /**
 * @author: Ashley Menhennett <ashleymenhennett@gmail.com>
 * @license: MIT
+*
+* Cloud: #ecf0f1
+* Orange: #e67e22
+* Blue: #2c3e50
 */
 
 /* Grid System */
@@ -9,12 +13,13 @@
 body {
     width: 100%;
     min-width: 320px;
-    max-width: 1200px;
     margin: 0 auto;
+    font-size: 16px;
 }
 .row {
     width: 100%;
-    float: left;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .col {
     margin-left: 2.4%;
@@ -80,14 +85,22 @@ h1 i.fa, h2 i.fa {
 }
 
 /* Navigation */
-#main-navigation {
-    padding: 50px;
+.main-navigation-container {
+    width: 100%;
     background: #2c3e50;
+}
+.main-navigation-center {
+    margin: 0 auto;
+}
+#main-navigation {
+    padding: 50px 50px 101px 50px;
+    background: transparent;
 } #main-navigation a {
     font-size: 1.2em;
     color: #ccc;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
@@ -115,9 +128,9 @@ h1 i.fa, h2 i.fa {
 
 #toggle-navigation {
     position: absolute;
-    top: 28px;
-    right: 20px;
-    font-size: 3.125em;
+    top: 38px;
+    right: 5%;
+    font-size: 2.5em;
     outline: 0 !important;
     color: #eee;
 }
@@ -195,23 +208,30 @@ a.button {
     text-decoration: none;
     background: #257ba0;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 a.button:hover { background: #035870; }
 
 /* Footer */
-footer #main-footer {
-    padding: 20px;
+.main-footer-container {
+    width: 100%;
+    clear: both;
     background: #2c3e50;
+}
+
+#main-footer {
+    padding: 20px 20px 40px 20px;
+    background: transparent;
     font-size: 1.2em;
     color: #fff;
-} footer #main-footer #footer-right {
+} #main-footer #footer-right {
     float: right;
     text-align: right;
-} footer #main-footer #footer-right a {
+} #main-footer #footer-right a {
     color: #fff;
     text-decoration: none;
-} footer #main-footer #footer-right a:hover {
+} #main-footer #footer-right a:hover {
     color: #fe9e32;
 }
 
@@ -222,10 +242,20 @@ footer #main-footer {
 }
 
 @media (max-width: 768px) {
-    #main-navigation { padding: 29px; }
+    #main-navigation { padding: 29px 29px 90px 29px; }
     #main-navigation a { font-size: 1.5em; }
     #brand, h1 { text-align: center; }
-    #main-navigation-list-container { display: none; }
+    #main-navigation-list-container {
+        display: none;
+        background: #2c3e50;
+        margin-top: 29px;
+        border-top: 3px solid #e67e22;
+        text-align: center;
+    }
+    #main-navigation-list li a {
+        margin: 0;
+        border-bottom: none;
+    }
     ul#main-navigation-list { float: none; }
     ul#main-navigation-list li { float: none !important; }
     #main-navigation-list li a {
@@ -243,13 +273,13 @@ footer #main-footer {
 
     .resume-section { padding: 40px; }
 
-    footer #main-footer, footer #main-footer #footer-right {
+    #main-footer, #main-footer #footer-right {
         text-align: center !important;
     }
-    footer #main-footer { padding: 20px 20px 5px 20px; }
-    footer #main-footer span { display: block; }
-    footer #main-footer #footer-right { margin-top: 5px; float: none;}
-    footer #main-footer #footer-right a { padding: 2px; }
+    #main-footer { padding: 20px 20px 90px 20px; }
+    #main-footer span { display: block; }
+    #main-footer #footer-right { margin-top: 5px; float: none;}
+    #main-footer #footer-right a { padding: 2px; }
 }
 
 @media (min-width: 769px) and (max-width: 959px) {
