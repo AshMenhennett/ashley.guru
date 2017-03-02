@@ -192,7 +192,7 @@ h1#resume small a {
     padding-top: 10px;
     padding-bottom: 5px;
 }
-.project.quote { border-left: 5px solid #ccc; }
+.project > .quote { border-left: 5px solid #ccc; }
 .testimonial, .project, .about { padding: 20px; }
 #intro, .testimonial, .project, .contact, .about { text-align: center; }
 .testimonial, .resume-section, .project, .about { font-size: 1.375em; }
