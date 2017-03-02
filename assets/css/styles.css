@@ -164,7 +164,7 @@ h1 i.fa, h2 i.fa {
 /* Profile Image */
 #profile-img {
     max-width: 30%;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 /* Sections */
@@ -179,7 +179,6 @@ h1#resume small a {
 .project.no-top-brdr { border: none; }
 .project img {
     display: block;
-    max-width: 100%;
     margin: 0 auto;
     padding: 10px 10px 5px 10px;
 }
