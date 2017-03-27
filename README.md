@@ -1,12 +1,12 @@
-#ashley.guru
+# ashley.guru
 
 The source for my personal website.
 
-##Google Fonts
+## Google Fonts
 - [Josefin Slab](https://fonts.google.com/specimen/Josefin+Slab)
 - [Raleway](https://fonts.google.com/specimen/Raleway)
 
-##Libraries and Assets
+## Libraries and Assets
 - [jQuery](https://jquery.com/)
 - [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 - [HTML5 Shiv](https://github.com/aFarkas/html5shiv)
@@ -17,5 +17,5 @@ The source for my personal website.
 - [Colour inspiration](http://flatuicolors.com/)
 - [Favicon](http://mdbootstrap.com/tools/logo-generator-text/)
 
-##License
+## License
 MIT Licensing
