@@ -20,6 +20,7 @@ body {
     width: 100%;
     max-width: 1560px;
     margin: 0 auto;
+    clear: both;
 }
 .col {
     margin-left: 2.4%;
