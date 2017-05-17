@@ -217,7 +217,7 @@ h1#resume small a {
 /* Social Media Links */
 .social-links i.fa {
     font-size: 80px;
-    padding: 18px;
+    padding: 8px;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -282,7 +282,7 @@ h1#resume small a {
 
     #intro { float: none; }
 
-    #contact-button {
+    .button {
         max-width: 95%;
     }
 
