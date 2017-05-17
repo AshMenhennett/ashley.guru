@@ -3,7 +3,6 @@
 The source for my personal website.
 
 ## Google Fonts
-- [Josefin Slab](https://fonts.google.com/specimen/Josefin+Slab)
 - [Raleway](https://fonts.google.com/specimen/Raleway)
 
 ## Libraries and Assets
