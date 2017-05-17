@@ -198,26 +198,30 @@ h1#resume small a {
 .about, .project, .testimonial, .contact { margin-bottom: 20px; }
 
 /* Buttons */
-a.button {
+.button {
     display: block;
     max-width: 35%;
     margin: 0 auto;
     padding: 25px;
+    border-radius: 3px;
     color: #fff;
     text-decoration: none;
     background: #EE6E6F;
+    box-shadow: inset 0px -6px 0px #dd5d5e;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
-a.button:hover { background: #dd5d5e; }
+.button:hover { background: #dd5d5e; }
 
 /* Social Media Links */
-a.social-links i.fa {
+.social-links i.fa {
     font-size: 80px;
     padding: 18px;
-    transition: all 0.2s ease-in-out;
-} a.social-links i.fa:hover {
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+} .social-links i.fa:hover {
     color: #dd5d5e;
 }
 
