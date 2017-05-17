@@ -90,6 +90,7 @@ h1 i.fa, h2 i.fa {
 /* Navigation */
 .main-navigation-container {
     width: 100%;
+    border-top: 8px #dd5d5e solid;
     background: #EE6E6F;
 }
 .main-navigation-center {
@@ -230,11 +231,11 @@ h1#resume small a {
     width: 100%;
     clear: both;
     background: #EE6E6F;
+    border-bottom: 8px #dd5d5e solid;
 }
 
 #main-footer {
     padding: 20px 20px 40px 20px;
-    border-bottom: 8px #dd5d5e solid;
     background: transparent;
     font-size: 1.2em;
     color: #fff;
