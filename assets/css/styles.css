@@ -132,11 +132,11 @@ h1 i.fa, h2 i.fa {
 
 #toggle-navigation {
     position: absolute;
-    top: 38px;
+    top: 46px;
     right: 5%;
     font-size: 2.5em;
     outline: 0 !important;
-    color: #eee;
+    color: #fff;
 }
 #toggle-navigation:hover { cursor: pointer; }
 
@@ -162,7 +162,7 @@ h1 i.fa, h2 i.fa {
 
 /* Profile Image */
 #profile-img {
-    max-width: 100%;
+    max-width: 60%;
     border-radius: 100%;
 }
 
@@ -259,6 +259,7 @@ h1#resume small a {
     #main-navigation { padding: 29px 29px 90px 29px; }
     #main-navigation a { font-size: 1.5em; }
     #brand, h1 { text-align: center; }
+    #profile-img { max-width: 80%; }
     #main-navigation-list-container {
         display: none;
         background: #EE6E6F;
