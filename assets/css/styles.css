@@ -4,7 +4,8 @@
 *
 * Cloud: #ecf0f1
 * Peach: #EE6E6F
-* Accent: #dd5d5e;
+* Accent: #dd5d5e
+* Box shadow dark: rgba(54, 54, 54, 0.3)
 */
 
 /* Grid System */
@@ -208,12 +209,15 @@ h1#resume small a {
     color: #fff;
     text-decoration: none;
     background: #EE6E6F;
-    box-shadow: inset 0px -6px 0px #dd5d5e;
+    box-shadow: inset 0px -6px 0px rgba(54, 54, 54, 0.3);
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
-.button:hover { background: #dd5d5e; }
+.button:hover {
+    background: #dd5d5e;
+    box-shadow: inset 0px -2px 0px rgba(54, 54, 54, 0.3);
+}
 
 /* Social Media Links */
 .social-links i.fa {
@@ -263,8 +267,8 @@ h1#resume small a {
     #main-navigation-list-container {
         display: none;
         background: #EE6E6F;
-        margin-top: 29px;
-        border-top: 3px solid #EE6E6F;
+        margin-top: 21px;
+        border-top: 8px solid #dd5d5e;
         text-align: center;
     }
     #main-navigation-list li a {
