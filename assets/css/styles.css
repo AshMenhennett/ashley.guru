@@ -127,7 +127,6 @@ h1 i.fa, h2 i.fa {
 }
 #main-navigation-list li a.active { border-color: #fff; }
 #main-navigation-list li a:hover {
-    background: rgba(54, 54, 54, 0.3);
     border-color: #dd5d5e;
     color: #fff;
 }
@@ -272,19 +271,17 @@ h1#resume small a {
         border-top: 8px solid #dd5d5e;
         text-align: center;
     }
-    #main-navigation-list li a {
-        margin: 0;
-        border-bottom: none;
-    }
     ul#main-navigation-list { float: none; }
     ul#main-navigation-list li { float: none !important; }
     #main-navigation-list li a {
         display: block;
+        margin: 0;
         width: 100% !important;
         padding: 15px 0px 15px 10px;
         border-bottom: 3px solid transparent;
     } #main-navigation-list li a:hover {
         border-color: #dd5d5e;
+        background: rgba(54, 54, 54, 0.3);
     }
 
     #intro { float: none; }
