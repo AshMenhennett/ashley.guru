@@ -169,7 +169,7 @@ h1#resume small a {
     font-size: 0.70em;
     color: #333;
 }
-.resume-section ul>li { padding: 6px; }
+.resume-section ul>li, .contact-section ul>li { padding: 6px; }
 
 .projects, .about { margin-top: 20px; }
 .projects.no-top-brdr { border: none; }
