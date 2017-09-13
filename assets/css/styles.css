@@ -192,7 +192,7 @@ h1#resume small a {
     padding-bottom: 5px;
 }
 
-.testimonial { text-align: center; }
+.testimonial, #intro, .about, .project { text-align: center; }
 
 /* Cards */
 .card {
@@ -225,6 +225,7 @@ h1#resume small a {
     padding: 25px;
     border-radius: 3px;
     color: #fff;
+    text-align: center;
     text-decoration: none;
     background: #EE6E6F;
     box-shadow: inset 0px -6px 0px rgba(54, 54, 54, 0.3);
