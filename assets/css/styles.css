@@ -69,7 +69,7 @@ a { color: #EE6E6F; }
 
 .note { color: #888; }
 .underline { text-decoration: underline; }
-.lang-frameworks ul li ul li { font-size: 1em; }
+/*.lang-frameworks ul li ul li { font-size: 1em; }*/
 
 /* Headings and FontAwesome icons */
 h1, h2, h3, h4, h5, h6 {
@@ -79,7 +79,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1.heading {
     padding-bottom: 0;
+    text-align: center;
 }
+
+
 
 h1 i.fa, h2 i.fa {
     margin-left: 15px;
@@ -183,14 +186,14 @@ h1#resume small a {
     padding: 10px 10px 5px 10px;
 }
 
-#intro, .contact { font-size: 1.5em; }
+/*#intro, .contact { font-size: 1.5em; }
 .contact { margin-bottom: 25px; }
 .contact p { padding: 40px; }
 .contact p:first-of-type { padding-bottom: 10px; }
 .contact p:last-of-type {
     padding-top: 10px;
     padding-bottom: 5px;
-}
+}*/
 
 .testimonial, #intro, .about, .projects, .contact { text-align: center; }
 .about, .projects, .testimonial { font-size: 1.375em; }
