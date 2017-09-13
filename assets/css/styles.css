@@ -94,7 +94,6 @@ h1 i.fa, h2 i.fa {
 /* Navigation */
 .main-navigation-container {
     width: 100%;
-    border-top: 8px #dd5d5e solid;
     background: #EE6E6F;
 }
 .main-navigation-center {
@@ -292,7 +291,6 @@ h1#resume small a {
         display: none;
         background: #EE6E6F;
         margin-top: 21px;
-        border-top: 8px solid #dd5d5e;
         text-align: center;
     }
     ul#main-navigation-list { float: none; }
