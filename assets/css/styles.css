@@ -63,7 +63,7 @@ h1 {
 h1 > span.underline { font-weight: 600; }
 
 /* Universal */
-body { background: #ecf0f1; }
+body { background: #fff; }
 a { color: #EE6E6F; }
 
 .note { color: #888; }
