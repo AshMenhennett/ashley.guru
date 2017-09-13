@@ -124,7 +124,6 @@ h1 i.fa, h2 i.fa {
 #main-navigation-list li { float: left; }
 #main-navigation-list li a {
     margin: 2px;
-    border-bottom: 3px solid #fff;
     padding: 25px 18px;
 }
 #main-navigation-list li a.active { border-color: #fff; }
