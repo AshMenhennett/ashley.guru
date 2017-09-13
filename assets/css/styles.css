@@ -181,7 +181,7 @@ h1#resume small a {
 }
 
 .testimonial, #intro, .about, .projects, .contact { text-align: center; }
-.about, .projects, .testimonial { font-size: 1.375em; }
+.about, .projects, .testimonial { font-size: 1.75em; }
 .about, .projects, .testimonial-section, .resume-section, .contact-section { padding: 0 20px 20px 20px; }
 .testimonial.card h3.card-title { font-size: 0.95em; }
 
