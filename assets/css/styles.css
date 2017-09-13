@@ -53,10 +53,8 @@ body {
 
 /* Main Typography */
 * { font-family: 'Raleway', sans-serif; }
-
-#main-navigation-list li a, p, #intro, .resume-section ul li, .note, footer #main-footer span, footer #main-footer span a {
-    font-weight: 200;
-}
+#main-navigation-list li a, p, #intro, .resume-section ul li, .note{ font-weight: 200; }
+footer #main-footer span { font-weight: 600; }
 
 h1 {
     font-size: 2.5em;
@@ -69,7 +67,6 @@ a { color: #EE6E6F; }
 
 .note { color: #888; }
 .underline { text-decoration: underline; }
-/*.lang-frameworks ul li ul li { font-size: 1em; }*/
 
 /* Headings and FontAwesome icons */
 h1, h2, h3, h4, h5, h6 {
@@ -79,10 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1.heading {
     padding-bottom: 0;
-    text-align: center;
 }
-
-
 
 h1 i.fa, h2 i.fa {
     margin-left: 15px;
@@ -175,7 +169,6 @@ h1#resume small a {
     font-size: 0.70em;
     color: #333;
 }
-/*.resume-section { padding: 10px; }*/
 .resume-section ul>li { padding: 6px; }
 
 .projects, .about { margin-top: 20px; }
@@ -186,19 +179,11 @@ h1#resume small a {
     padding: 10px 10px 5px 10px;
 }
 
-/*#intro, .contact { font-size: 1.5em; }
-.contact { margin-bottom: 25px; }
-.contact p { padding: 40px; }
-.contact p:first-of-type { padding-bottom: 10px; }
-.contact p:last-of-type {
-    padding-top: 10px;
-    padding-bottom: 5px;
-}*/
-
 .testimonial, #intro, .about, .projects, .contact { text-align: center; }
 .about, .projects, .testimonial { font-size: 1.375em; }
 .about, .projects, .testimonial-section, .resume-section { padding: 20px; }
 .testimonial.card h3.card-title { font-size: 0.95em; }
+
 /* Cards */
 .card {
     background: #fff;
@@ -257,14 +242,7 @@ h1#resume small a {
     font-size: 1.2em;
     font-weight: 600;
     color: #fff;
-} #main-footer #footer-right {
-    float: right;
-    text-align: right;
-} #main-footer #footer-right a {
-    color: #fff;
-    text-decoration: none;
-} #main-footer #footer-right a:hover {
-    color: #fff;
+    text-align: center;
 }
 
 /* Media Queries */
@@ -293,7 +271,6 @@ h1#resume small a {
         padding: 15px 0px 15px 10px;
     } #main-navigation-list li a:hover {
         border-color: #dd5d5e;
-        background: rgba(54, 54, 54, 0.1);
     }
 
     #intro { float: none; }
@@ -301,8 +278,6 @@ h1#resume small a {
     .button {
         max-width: 95%;
     }
-
-    /*.resume-section { padding: 40px; }*/
 
     #main-footer, #main-footer #footer-right {
         text-align: center !important;
