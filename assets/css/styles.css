@@ -191,7 +191,7 @@ h1#resume small a {
 .about, .projects, .testimonial { font-size: 1.75em; }
 .about, .projects, .testimonial-section, .resume-section, .contact-section { padding: 0 20px 20px 20px; }
 .testimonial.card h3.card-title { font-size: 0.95em; }
-.contact-section { margin-top: 30px; }
+.contact { margin-top: 38px; }
 
 /* Cards */
 .card {
