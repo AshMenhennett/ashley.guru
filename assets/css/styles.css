@@ -181,7 +181,7 @@ h1#resume small a {
 
 .testimonial, #intro, .about, .projects, .contact { text-align: center; }
 .about, .projects, .testimonial { font-size: 1.375em; }
-.about, .projects, .testimonial-section, .resume-section, .contact-section { padding: 20px; }
+.about, .projects, .testimonial-section, .resume-section, .contact-section { padding: 0 20px 20px 20px; }
 .testimonial.card h3.card-title { font-size: 0.95em; }
 
 /* Cards */
@@ -208,27 +208,6 @@ h1#resume small a {
 }
 
 /* Buttons */
-/* old buttons
-.button {
-    display: block;
-    max-width: 35%;
-    margin: 0 auto;
-    padding: 25px;
-    border-radius: 3px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    background: #EE6E6F;
-    box-shadow: inset 0px -6px 0px rgba(54, 54, 54, 0.3);
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-}
-.button:hover {
-    background: #dd5d5e;
-    box-shadow: inset 0px -2px 0px rgba(54, 54, 54, 0.3);
-}
-*/
 .button {
     display: block;
     max-width: 35%;
@@ -240,9 +219,9 @@ h1#resume small a {
     text-align: center;
     text-decoration: none;
     background: #EE6E6F;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;   
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;   
 } .button:hover {
     background: #fff;
     color: #EE6E6F;
@@ -299,14 +278,6 @@ h1#resume small a {
     .button {
         max-width: 95%;
     }
-
-    #main-footer, #main-footer #footer-right {
-        text-align: center !important;
-    }
-    #main-footer { padding: 20px 20px 90px 20px; }
-    #main-footer span { display: block; }
-    #main-footer #footer-right { margin-top: 5px; float: none;}
-    #main-footer #footer-right a { padding: 2px; }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
