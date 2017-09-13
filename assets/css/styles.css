@@ -193,7 +193,7 @@ h1#resume small a {
 }
 
 .testimonial, #intro, .about, .project, .contact { text-align: center; }
-.about, .project, .resume-section { font-size: 1.375em; }
+.about, .project { font-size: 1.375em; }
 
 /* Cards */
 .card {
