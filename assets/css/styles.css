@@ -74,13 +74,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px;
     color: #EE6E6F;
 }
-#intro .heading {
-    padding-bottom: 0;
-}
+
 h1.heading {
     text-decoration: underline;
     text-align: center;
     font-weight: 600;
+}
+#intro .heading {
+    font-weight: 200;
+    text-decoration: none;
+    padding-bottom: 0;
 }
 
 h1 i.fa, h2 i.fa {
