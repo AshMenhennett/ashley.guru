@@ -197,7 +197,7 @@ h1#resume small a {
 
 .testimonial, #intro, .about, .projects, .contact { text-align: center; }
 .about, .projects, .testimonial { font-size: 1.375em; }
-.about, .projects, .testimonial-section { padding: 20px; }
+.about, .projects, .testimonial-section, .resume-section { padding: 20px; }
 .testimonial.card h3.card-title { font-size: 0.95em; }
 /* Cards */
 .card {
@@ -241,17 +241,6 @@ h1#resume small a {
 .button:hover {
     background: #dd5d5e;
     box-shadow: inset 0px -2px 0px rgba(54, 54, 54, 0.3);
-}
-
-/* Social Media Links */
-.social-links i.fa {
-    font-size: 80px;
-    padding: 8px;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-} .social-links i.fa:hover {
-    color: #dd5d5e;
 }
 
 /* Footer */
