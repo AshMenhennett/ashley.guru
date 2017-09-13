@@ -192,7 +192,7 @@ h1#resume small a {
     padding-bottom: 5px;
 }
 
-.testimonial, #intro, .about, .project { text-align: center; }
+.testimonial, #intro, .about, .project, .contact { text-align: center; }
 .about, .project, .resume-section { font-size: 1.375em; }
 
 /* Cards */
