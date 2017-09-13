@@ -135,7 +135,7 @@ h1 i.fa, h2 i.fa {
 
 #toggle-navigation {
     position: absolute;
-    top: 50px;
+    top: 44px;
     right: 5%;
     font-size: 2.5em;
     outline: 0 !important;
@@ -158,6 +158,7 @@ h1 i.fa, h2 i.fa {
     margin: 50px auto 20px auto;
     padding: 50px;
     float: right;
+    font-size: 1.1em;
 } #intro h1 {
     font-size: 3.125rem;
     color: #EE6E6F;
