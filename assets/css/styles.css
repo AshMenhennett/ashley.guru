@@ -3,7 +3,7 @@
 * @license: MIT
 *
 * Cloud: #ecf0f1
-* Peach: #EE6E6F
+* Peach/Red: #EE6E6F
 * Accent: #dd5d5e
 * Box shadow dark: rgba(54, 54, 54, 0.3)
 */
@@ -208,6 +208,7 @@ h1#resume small a {
 }
 
 /* Buttons */
+/* old buttons
 .button {
     display: block;
     max-width: 35%;
@@ -226,6 +227,26 @@ h1#resume small a {
 .button:hover {
     background: #dd5d5e;
     box-shadow: inset 0px -2px 0px rgba(54, 54, 54, 0.3);
+}
+*/
+.button {
+    display: block;
+    max-width: 35%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ecf0f1;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #EE6E6F;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;   
+} .button:hover {
+    background: #fff;
+    color: #EE6E6F;
+    border-color: #EE6E6F;   
 }
 
 /* Footer */
