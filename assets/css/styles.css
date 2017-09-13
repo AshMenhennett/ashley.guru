@@ -204,7 +204,7 @@ h1#resume small a {
     background: #fff;
     border-top: 8px solid #dd5d5e;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     box-shadow: 0px 4px 12px #ccc;
     -webkit-box-shadow: 0px 4px 12px #ccc;
     -moz-box-shadow: 0px 4px 12px #ccc;
