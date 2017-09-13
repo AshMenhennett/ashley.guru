@@ -278,6 +278,10 @@ h1#resume small a {
     .button {
         max-width: 95%;
     }
+    
+    #main-footer {
+        padding-bottom: 60px;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
