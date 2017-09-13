@@ -125,6 +125,7 @@ h1 i.fa, h2 i.fa {
 #main-navigation-list li a {
     margin: 2px;
     padding: 25px 18px;
+    border-bottom: 3px solid #fff;
 }
 #main-navigation-list li a.active { border-color: #fff; }
 #main-navigation-list li a:hover {
