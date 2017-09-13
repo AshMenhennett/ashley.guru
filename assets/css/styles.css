@@ -194,7 +194,7 @@ h1#resume small a {
 
 .testimonial, #intro, .about, .project, .contact { text-align: center; }
 .about, .project, .testimonial { font-size: 1.375em; }
-
+.testimonial .card h3.card-title { font-size: 0.95em; }
 /* Cards */
 .card {
     background: #fff;
@@ -216,7 +216,6 @@ h1#resume small a {
 } .card h3.card-title {
     color: #525151;
     padding: 0 0 15px 0;
-    font-size: 0.95em;
 }
 
 /* Buttons */
