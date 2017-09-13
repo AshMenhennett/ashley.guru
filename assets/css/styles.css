@@ -175,9 +175,9 @@ h1#resume small a {
 .resume-section { padding: 10px; }
 .resume-section ul>li { padding: 6px; }
 
-.project, .about { margin-top: 20px; }
-.project.no-top-brdr { border: none; }
-.project img {
+.projects, .about { margin-top: 20px; }
+.projects.no-top-brdr { border: none; }
+.projects img {
     display: block;
     margin: 0 auto;
     padding: 10px 10px 5px 10px;
@@ -192,9 +192,9 @@ h1#resume small a {
     padding-bottom: 5px;
 }
 
-.testimonial, #intro, .about, .project, .contact { text-align: center; }
-.about, .project, .testimonial { font-size: 1.375em; }
-.about, .project, .testimonial-section { padding: 20px; }
+.testimonial, #intro, .about, .projects, .contact { text-align: center; }
+.about, .projects, .testimonial { font-size: 1.375em; }
+.about, .projects, .testimonial-section { padding: 20px; }
 .testimonial.card h3.card-title { font-size: 0.95em; }
 /* Cards */
 .card {
