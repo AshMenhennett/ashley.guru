@@ -216,6 +216,9 @@ h1#resume small a {
     border-bottom: 1px solid #ccc;
     padding-bottom: 15px;
     text-align: center;
+} .card h3.card-title {
+    color: #000;
+    padding: 0;
 }
 
 /* Buttons */
