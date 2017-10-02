@@ -189,8 +189,9 @@ h1#resume small a {
 
 .testimonial, #intro, .about, .projects, .contact, .contact-section { text-align: center; }
 .about, .projects, .testimonial, .contact-section { font-size: 1.75em; }
-.about, .projects, .testimonial-section, .resume-section, .contact-section { padding: 0 20px 20px 20px; }
+.about, .projects, .testimonial-section, .resume-section { padding: 0 20px 20px 20px; }
 .testimonial.card h3.card-title { font-size: 0.95em; }
+.contact-section {margin: 20px 0 20px 0;}
 /*.contact { margin-top: 38px; }*/
 
 /* Cards */
