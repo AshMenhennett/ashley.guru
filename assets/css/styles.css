@@ -187,12 +187,12 @@ h1#resume small a {
     padding: 10px 10px 5px 10px;
 }
 
-.testimonial, #intro, .about, .projects, .contact, .contact-section { text-align: center; }
-.about, .projects, .testimonial, .contact-section { font-size: 1.75em; }
+.testimonial, #intro, .about, .projects, .contact { text-align: center; }
+.about, .projects, .testimonial { font-size: 1.75em; }
 .about, .projects, .testimonial-section, .resume-section { padding: 0 20px 20px 20px; }
 .testimonial.card h3.card-title { font-size: 0.95em; }
 .contact-section {margin: 20px 0 20px 0;}
-/*.contact { margin-top: 38px; }*/
+.contact { margin-top: 38px; }
 
 /* Cards */
 .card {
@@ -247,12 +247,15 @@ h1#resume small a {
 }
 
 #main-footer {
-    padding: 20px 20px 40px 20px;
+    padding: 20px 20px 50px 20px;
     background: transparent;
     font-size: 1.2em;
     font-weight: 600;
     color: #fff;
     text-align: center;
+} #main-footer a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* Media Queries */
@@ -290,7 +293,7 @@ h1#resume small a {
     }
     
     #main-footer {
-        padding-bottom: 60px;
+        padding-bottom: 75px;
     }
 }
 
