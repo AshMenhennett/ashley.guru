@@ -254,9 +254,9 @@ h1#resume small a {
     color: #fff;
     text-align: center;
 } #main-footer a {
-    color: #eee;
+    color: #fefe;
     text-decoration: underline;
-    padding: 4px;
+    padding: 6px;
 }
 
 /* Media Queries */
